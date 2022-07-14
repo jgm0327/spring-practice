@@ -1,8 +1,12 @@
-package com.jgm.javaoop.logic;
+package com.jgm.springPractice.logic;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class BubbleSort<T extends Comparable<T>> implements Sort<T> {
     @Override
     public List<T> sort(List<T> input) {

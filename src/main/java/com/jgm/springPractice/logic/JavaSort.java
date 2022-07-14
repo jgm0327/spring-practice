@@ -1,8 +1,11 @@
-package com.jgm.javaoop.logic;
+package com.jgm.springPractice.logic;
+
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
 
 public class JavaSort <T extends Comparable<T>> implements Sort<T>{
 
