@@ -5,9 +5,12 @@ import com.jgm.springPractice.logic.service.SortService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-@ComponentScan("com.jgm.springPractice")
+
+@EnableWebMvc
 @Configuration
+@ComponentScan("com.jgm.springPractice")
 public class Config {
 
 }
